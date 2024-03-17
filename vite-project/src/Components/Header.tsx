@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Form, FormControl, Navbar, Nav, Button } from "react-bootstrap";
 import logo from './Logo.png';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,6 +10,7 @@ import Blog from '../Pages/Blog.tsx';
 const Header = () => {
     return (
         <>
+
             <Navbar fixed="top" collapseOnSelect expand="md" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="/">
@@ -29,6 +29,7 @@ const Header = () => {
                             <Nav.Link href="/about"> About us </Nav.Link>
                             <Nav.Link href="/contacts"> Contacts </Nav.Link>
                             <Nav.Link href="/blog"> Blog </Nav.Link>
+
                         </Nav>
                         <Form className="d-flex">
                             <FormControl

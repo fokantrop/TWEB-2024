@@ -1,13 +1,10 @@
-import React, {Component} from 'react';
-
-class Home extends Component {
-    render() {
-        return (
-            <div>
-                Hello home
-            </div>
+import CarouselBox from '../Components/CarouselBox.tsx'
+import IncrementButton from "../Components/IncrementButton.tsx";
+const Home = () => {
+    return (
+        <CarouselBox/>
         );
     }
-}
+
 
 export default Home;
