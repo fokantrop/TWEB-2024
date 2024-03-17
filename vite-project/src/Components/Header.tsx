@@ -1,6 +1,12 @@
 import React from 'react';
-import {Container, Form, FormControl, Navbar, Nav, Button} from "react-bootstrap";
+import { Container, Form, FormControl, Navbar, Nav, Button } from "react-bootstrap";
 import logo from './Logo.png';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from '../Pages/Home.tsx';
+import About from '../Pages/About.tsx';
+import Contacts from '../Pages/Contacts.tsx';
+import Blog from '../Pages/Blog.tsx';
 
 const Header = () => {
     return (
@@ -35,8 +41,21 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+            <Router>
+                <div style={{ paddingTop: '100px', textAlign: 'left' }}> {/* Измените значение paddingTop в соответствии с высотой вашего Navbar */}
+                    <Routes>
+                        <Route path="/" element={<Home />}/>
+                        <Route path="/about" element={<About />}/>
+                        <Route path="/contacts" element={<Contacts />}/>
+                        <Route path="/blog" element={<Blog />}/>
+                    </Routes>
+                </div>
+            </Router>
+
+
         </>
     );
-};
+}
 
 export default Header;
