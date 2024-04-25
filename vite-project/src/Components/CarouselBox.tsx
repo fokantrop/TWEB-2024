@@ -12,8 +12,8 @@ const CarouselBox = () => {
                 alt="Gym"
             />
             <Carousel.Caption>
-                <h3>Gym image</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quos!</p>
+                <h3>Сила. Выносливость. Дисциплина.</h3>
+                <p>Всё это начинается здесь, в тренажерном зале.</p>
             </Carousel.Caption>
         </Carousel.Item>
 
@@ -24,8 +24,8 @@ const CarouselBox = () => {
                 alt="Gym"
             />
             <Carousel.Caption>
-                <h3>Gym image</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quos!</p>
+                <h3>Превращай мечты в реальность.</h3>
+                <p>Начни сегодня с тренажерного зала.</p>
             </Carousel.Caption>
         </Carousel.Item>
 
@@ -36,8 +36,8 @@ const CarouselBox = () => {
                 alt="Gym"
             />
             <Carousel.Caption>
-                <h3>Gym image</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quos!</p>
+                <h3>Сила не приходит от покоя.</h3>
+                <p>Приведи свои мечты в движение в тренажерном зале.</p>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
