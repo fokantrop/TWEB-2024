@@ -25,19 +25,19 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/"> Home </Nav.Link>
-                            <Nav.Link href="/about"> About us </Nav.Link>
-                            <Nav.Link href="/contacts"> Contacts </Nav.Link>
-                            <Nav.Link href="/blog"> Blog </Nav.Link>
+                            <Nav.Link href="/"> Домой </Nav.Link>
+                            <Nav.Link href="/about"> О нас </Nav.Link>
+                            <Nav.Link href="/contacts"> Связаться </Nav.Link>
+                            <Nav.Link href="/blog"> Блог </Nav.Link>
 
                         </Nav>
                         <Form className="d-flex">
                             <FormControl
                                 type="text"
-                                placeholder="Search"
+                                placeholder="Поиск"
                                 className="me-2"
                             />
-                            <Button variant="dark">Search</Button>
+                            <Button variant="dark">Поиск</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import gymImg from '../assets/gym.jpg'
 import agymImg from '../assets/agym.jpg'
+import bgym from '../assets/bgym.jpg'
 
 const CarouselBox = () => {
     return (
@@ -32,7 +33,7 @@ const CarouselBox = () => {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={gymImg}
+                src={bgym}
                 alt="Gym"
             />
             <Carousel.Caption>
