@@ -1,6 +1,6 @@
 import CarouselBox from '../Components/CarouselBox';
 import { CardGroup, Container, Card, Button } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
                             <Card.Text>
                                 Наши тренеры - опытные профессионалы с глубокими знаниями и страстью к спорту. Каждый из них привносит свой неповторимый стиль и подход к тренировкам, помогая спортсменам достигать новых высот и раскрывать свой потенциал.
                             </Card.Text>
-                            <Button>О нашей команде</Button>
+                            <Link to="/about" className="btn btn-primary">О нашей команде</Link>
                         </Card.Body>
                     </Card>
                     <Card>
@@ -45,7 +45,8 @@ const Home = () => {
                             <Card.Text>
                                 Наши тренеры готовы помочь вам поднять уровень мотивации и вдохновить на новые достижения. С опытом и энтузиазмом они будут рядом с вами, помогая преодолевать трудности и стимулируя к постоянному росту.
                             </Card.Text>
-                            <Button>Связаться</Button>
+                            {/* Заменим Button на Link */}
+                            <Link to="/contacts" className="btn btn-primary">Связаться</Link>
                         </Card.Body>
                     </Card>
                 </CardGroup>

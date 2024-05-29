@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Tab, Nav, Row, Col } from "react-bootstrap";
 import foca from '../assets/foca.jpg';
 import group from '../assets/group.jpg';
@@ -82,7 +81,7 @@ const About = () => {
                                     <h2>Наши контакты</h2>
                                     <p>Адрес: ул. Примерная, 123</p>
                                     <p>Телефон: +7 (123) 456-78-90</p>
-                                    <p>Электронная почта: info@example.com</p>
+                                    <p>Электронная почта: foca.serban@iis.utm.md</p>
                                 </div>
                             </Tab.Pane>
                         </Tab.Content>
